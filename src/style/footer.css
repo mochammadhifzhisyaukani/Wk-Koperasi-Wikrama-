@@ -1,0 +1,20 @@
+footer .container {
+  /* margin-top: 100px; */
+  background-color: #d19c67;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 200px;
+}
+
+h3 {
+  font-size: 28px;
+  background: linear-gradient(90deg, #242d36, #55422f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-section p,
+.footer-section a,
+.footer-section small {
+  color: #fff; /* teks putih */
+}

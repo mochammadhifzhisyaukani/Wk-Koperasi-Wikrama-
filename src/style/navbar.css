@@ -1,0 +1,36 @@
+/* Blok navbar (logo + menu) */
+.navbar {
+  background-color: #d19c67;   /* warna background */
+  border-radius: 12px;           /* sudut melengkung */
+  margin: 10px 300px;            /* jarak kiri-kanan */
+  padding: 0 10px;               /* jarak kiri-kanan */
+  padding-bottom: 15px;
+  height: 60px;                  /* tinggi kotak navbar */
+  display: flex;                 /* aktifkan flexbox */
+  align-items: center;           /* isi rata tengah vertikal */
+  position: fixed;         /* navbar tetap di atas */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  /* margin-bottom: 100px; */
+}
+
+/* Link di dalam navbar */
+.navbar .nav-link {
+  color: #ffffff;
+}
+
+.navbar .nav-link:hover {
+  /* border: 1px solid #222; */
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+  color: #d1d1d1;
+}
+
+/* Logo brand */
+.navbar .navbar-brand {
+  color: #222;
+  /* font-weight: bold; */
+}
