@@ -1,7 +1,6 @@
 let footer = document.getElementById('footer');
 
-footer.innerHTML = `
-  <footer class="footer-section py-4">
+footer.innerHTML = `<footer class="footer-section py-4">
     <div class="container text-center">
       <!-- Nama koperasi -->
       <h3>Koperasi Wikrama</h3>
