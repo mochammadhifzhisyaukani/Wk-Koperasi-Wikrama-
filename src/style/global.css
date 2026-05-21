@@ -1,8 +1,8 @@
 body {
-  background: linear-gradient(to top right, #F3904F, #808080);
-    /* background-image: url(/src/assets/images/foto\ wikrama\ atas.png);
-    background-size: cover;
+  /* background: linear-gradient(to top right, #F3904F, #808080); */
+  background-color: rgb(221, 206, 185);
+  /* background-image: url(/src/assets/images/foto\ smk\ wikrama.png); */
+  /* background-size: auto;
     background-repeat: no-repeat;
     background-position: center;  */
-  
 }

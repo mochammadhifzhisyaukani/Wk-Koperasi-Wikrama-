@@ -1,0 +1,86 @@
+/* ====== Global ====== */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* ====== Left Side ====== */
+.contact-left-side {
+    background: linear-gradient(135deg, #d19c67, #03b3f9);
+    border-radius: 0 20px 20px 0;
+}
+
+.contact-left-side h1 {
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+
+.contact-desc-small {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+/* ====== Right Side ====== */
+.contact-right-side {
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.contact-form-card {
+    max-width: 450px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ====== Form ====== */
+.contact-label {
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+    color: #444;
+}
+
+.contact-input {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 0.6rem 0.8rem;
+    transition: all 0.3s ease;
+}
+
+.contact-input:focus {
+    border-color: #d19c67;;
+    box-shadow: 0 0 6px rgba(41, 128, 185, 0.3);
+}
+
+/* ====== Select ====== */
+.contact-input option {
+    padding: 0.5rem;
+}
+
+/* ====== Button ====== */
+.contact-btn-submit {
+    background: #a75a0c;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem;
+    transition: background 0.3s ease;
+}
+
+.contact-btn-submit:hover {
+    background: #9b5607;
+}
+
+/* ====== Terms ====== */
+.contact-terms-text {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.contact-terms-text a {
+    color: #b88b17;
+    font-weight: 500;
+}
+

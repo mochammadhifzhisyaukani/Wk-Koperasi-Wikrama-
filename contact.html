@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- link font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- link animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- link style global -->
+    <link rel="stylesheet" href="/src/style/global.css">
+    <!-- link style navbar -->
+    <link rel="stylesheet" href="/src/style/component/navbar.css">
+    <!-- link style footer -->
+    <link rel="stylesheet" href="/src/style/component/footer.css">
+    <!-- link style index -->
+    <link rel="stylesheet" href="/src/style/kontak.css">
+
+    <link rel="icon" type="image/png" href="/src/assets/images/Pavicon.png" sizes="512x512">
+    <title>Koperasi Wikrama</title>
+</head>
+
+<body>
+    <!-- <header class="container-sm">
+        <nav id="navbar">
+        </nav>
+    </header> -->
+
+    <main id="content" class="animate__animated animate__fadeInDown">
+        <div class="container-fluid p-0 ">
+            <div class="row min-vh-100 g-0">
+
+                <div
+                    class="col-md-6 d-none d-md-flex flex-column justify-content-between p-5 text-white contact-left-side">
+
+                    <div class="">
+                        <a href="/index.html" class="text-decoration-none text-white d-flex gap-3">
+                            <img src="/src/assets/images/Pavicon.png" class="animate__animated animate__fadeInLeft"
+                                style="height: 50px;">
+                            <h1 class="fw-bold mb-3 animate__animated animate__fadeInDown">Koperasi Wikrama</h1>
+                        </a>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="mb-4">
+                            <h1 class="animate__animated animate__jackInTheBox"> "Tidak perlu antre, tidak perlu ribet.
+                                Cukup klik, langsung beres."</h1>
+                        </div>
+
+                        <div class="mb-0 mt-5 animate__animated animate__fadeInUp">
+                            <h5 class="fw-bold mb-2"><i class="bi bi-lightbulb me-2 contact-icon"></i> Masukan dan Saran
+                            </h5>
+                            <p class="contact-desc-small">Kami sangat menghargai masukan Anda dan terus berupaya
+                                meningkatkan layanan koperasi.
+                                Pendapat Anda penting untuk perkembangan Koperasi Wikrama.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center contact-right-side ">
+
+                    <div class="w-100 contact-form-card animate__animated animate__bounceInLeft"
+                        style="color: var(--teks-form) !important;">
+                        <div class="text-center mb-4">
+                            <div class="d-inline-flex p-3 bg-light rounded-circle mb-3"
+                                style="background: #e67e22 !important;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                    class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6 8a3 3 0 1 1 0-6 3 3 0 0 1 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z" />
+                                </svg>
+                            </div>
+                            <h1 class="fw-bold m-0">Anda ingin beli ?</h1>
+                            <p class="text-muted small" style="color: var(--teks-form) !important;">Pesan disini </p>
+                        </div>
+
+                        <form id="contact">
+                            <div class="mb-3">
+                                <label for="nama" class="form-label contact-label">Nama Lengkap</label>
+                                <input type="text" class="form-control contact-input" id="nama"
+                                    placeholder="Masukkan nama anda" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label contact-label">Email</label>
+                                <input type="email" class="form-control contact-input" id="email"
+                                    placeholder="Masukkan email anda" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="tel" class="form-label contact-label">Nomor Telepon</label>
+                                <div class="input-group">
+                                    <input type="tel" class="form-control contact-input" id="tel"
+                                        placeholder="0812-3456-7890" required>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="Barang" class="form-label contact-label">Barang :</label>
+                                <input type="text" id="barang" class="form-control contact-input"
+                                    placeholder="Masukkan Barang yang anda ingin jual" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="jumlah" class="form-label contact-label">Jumlah</label>
+                                <input type="number" id="jumlah" class="form-control contact-input" min="1"
+                                    placeholder="Masukkan jumlah" required>
+                            </div>
+
+                            <button type="submit" class="contact-btn-submit w-100 fw-semibold shadow-sm mb-4">Submit
+                                Message</button>
+
+                            <p class="contact-terms-text text-center m-0">
+                                Dengan menghubungi kami, Anda menyetujui <a href="#"
+                                    class="text-decoration-none">Ketentuan Layanan</a> dan
+                                <a href="#" class="text-decoration-none">Kebijakan Privasi</a>.
+                            </p>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- <footer id="footer" class="animate__animated animate__fadeInDown container-sm">
+    </footer> -->
+</body>
+
+
+<!-- script navbar -->
+<script src="/src/js/component/navbar.js"></script>
+<!-- script kontak -->
+<script src="/src/js/kontak.js"></script>
+<!-- script footer -->
+<script src="/src/js/component/footer.js"></script>
+
+</html>

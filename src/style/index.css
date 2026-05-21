@@ -1,7 +1,7 @@
 /* Styling untuk main content */
 #content {
-  max-width: 800px;
-  margin: 100px auto;
+  max-width: 900px;
+  margin: 200px auto;
   text-align: center;
   font-family: poppins;
   padding: 20px;
@@ -9,8 +9,16 @@
 
 /* Judul utama */
 #content h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   color: #2c3e50;
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+/* span */
+#content span {
+  font-size: 3rem;
+  color: #e17b1b;
   margin: 40px 0;
   font-weight: 700;
 }
@@ -18,9 +26,21 @@
 /* Paragraf */
 #content p {
   font-size: 1.1rem;
-  color: #ffffff;
+  color: #000000;
   line-height: 1.6;
   margin: 20px 0;
+}
+
+/* kolom-angka */
+#content .kolom-angka{
+  display: flex;
+  justify-content: center;
+}
+#content .kolom-angka .angka h1 {
+  color: #3d3838 !important;
+}
+#content .kolom-angka .angka p {
+  color: #080808 !important;
 }
 
 /* Tombol umum */
@@ -34,27 +54,26 @@
   transition: 0.3s;
 }
 
-hr{
-    margin-top: 50px;
-    margin-bottom: 50px;
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* Tombol Produk */
 .showProduck {
-  background: #2c3e50; 
+  background: #2c3e50;
   color: #fff;
 }
 
 .showProduck:hover {
   background: #242d36;
   transform: translateY(10px);
-
 }
 
 /* Tombol Layanan */
 .Service {
-  color: #ffffff;
-  border: 2px solid #d19c67; 
+  color: #000000;
+  border: 2px solid #d19c67;
 }
 
 .Service:hover {
@@ -63,7 +82,7 @@ hr{
   transform: translateY(10px);
 }
 
-.kolom-angka{
-    display: flex;
-    gap: 30%;
+.kolom-angka {
+  display: flex;
+  gap: 30%;
 }

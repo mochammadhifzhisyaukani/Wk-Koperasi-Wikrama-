@@ -11,11 +11,11 @@ navbar.innerHTML = `           <nav class="navbar navbar-expand-lg">
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav ms-auto gap-3">
-                            <a class="nav-link" href="#">Home</a>
-                            <a class="nav-link" href="#">Produk</a>
-                            <a class="nav-link" href="#">About</a>
-                            <a class="nav-link" href="#">Company</a>
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="produk.html">Produk</a>
+                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="company.html">Company</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </div>
                     </div>
                 </div>
