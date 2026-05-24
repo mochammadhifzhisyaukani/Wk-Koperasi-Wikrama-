@@ -10,7 +10,7 @@ index.innerHTML = `        <h1>Selamat Datang di <br> <span>Koperasi Wikrama</sp
         <div class="kolom-angka">
             <div class="angka">
                 <h1>500+</h1>
-                <p>Anggota Aktif</p>
+                <p>Pembeli</p>
             </div>
 
             <div class="angka">
@@ -19,7 +19,7 @@ index.innerHTML = `        <h1>Selamat Datang di <br> <span>Koperasi Wikrama</sp
             </div>
 
             <div class="angka">
-                <h1>100+</h1>
+                <h1>50+</h1>
                 <p>Produk</p>
             </div>
         </div>`;

@@ -18,5 +18,5 @@ navbar.innerHTML = `           <nav class="navbar navbar-expand-lg">
                             <a class="nav-link" href="contact.html">Contact</a>
                         </div>
                     </div>
-                </div>
+                </div>  
             </nav>`;
